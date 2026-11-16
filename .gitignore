@@ -1,0 +1,29 @@
+# Python & Virtual Environment
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Frontend Dependencies & Build
+frontend/node_modules/
+frontend/dist/
+
+# Secrets & Environment
+.env
+backend/.env
+frontend/.env
+
+# Local Database, Uploaded Photos/Videos, Evidence & Reports
+backend/data/
+backend/logs/
+*.db
+*.sqlite3
+
+# Downloaded ML Weights (auto-downloaded on first run)
+*.pt
+*.onnx
+*.pth
+
+# OS / Editor
+.DS_Store
+Thumbs.db
